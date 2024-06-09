@@ -1,0 +1,32 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "inventoryTransaction": {
+      "home": {
+        "title": "Inventory Transactions",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Inventory Transaction",
+        "createOrEditLabel": "Criar ou editar Inventory Transaction",
+        "notFound": "Nenhum Inventory Transaction encontrado"
+      },
+      "created": "Um novo Inventory Transaction foi criado com o identificador { param }",
+      "updated": "Um Inventory Transaction foi atualizado com o identificador { param }",
+      "deleted": "Um Inventory Transaction foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Inventory Transaction { id }?"
+      },
+      "detail": {
+        "title": "Inventory Transaction"
+      },
+      "id": "ID",
+      "invoiceId": "Invoice Id",
+      "transactionCreatedDate": "Transaction Created Date",
+      "transactionModifiedDate": "Transaction Modified Date",
+      "quantity": "Quantity",
+      "transactionComments": "Transaction Comments",
+      "activationStatus": "Activation Status",
+      "supplier": "Supplier",
+      "product": "Product",
+      "warehouse": "Warehouse"
+    }
+  }
+}

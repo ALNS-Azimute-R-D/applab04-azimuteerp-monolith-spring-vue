@@ -1,0 +1,27 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "artisticGenre": {
+      "home": {
+        "title": "ArtisticGenres",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Artistic Genre",
+        "createOrEditLabel": "Créer ou éditer un Artistic Genre",
+        "notFound": "Aucun Artistic Genre trouvé"
+      },
+      "created": "Un nouveau Artistic Genre a été créé avec l'identifiant { param }",
+      "updated": "Le Artistic Genre avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Artistic Genre avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Artistic Genre { id } ?"
+      },
+      "detail": {
+        "title": "Artistic Genre"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "artisticGenre": "Artistic Genre"
+    }
+  }
+}

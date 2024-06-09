@@ -1,0 +1,39 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Invoice erstellen",
+        "createOrEditLabel": "Invoice erstellen oder bearbeiten",
+        "notFound": "Keine Invoices gefunden"
+      },
+      "created": "Invoice erstellt mit ID { param }",
+      "updated": "Invoice aktualisiert mit ID { param }",
+      "deleted": "Invoice gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Invoice { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "businessCode": "Business Code",
+      "invoiceDate": "Invoice Date",
+      "dueDate": "Due Date",
+      "description": "Description",
+      "taxValue": "Tax Value",
+      "shippingValue": "Shipping Value",
+      "amountDueValue": "Amount Due Value",
+      "numberOfInstallmentsOriginal": "Number Of Installments Original",
+      "numberOfInstallmentsPaid": "Number Of Installments Paid",
+      "amountPaidValue": "Amount Paid Value",
+      "status": "Status",
+      "customAttributesDetailsJSON": "Custom Attributes Details JSON",
+      "activationStatus": "Activation Status",
+      "preferrablePaymentGateway": "Preferrable Payment Gateway",
+      "ordersList": "Orders List",
+      "ticketsPurchasedList": "Tickets Purchased List"
+    }
+  }
+}

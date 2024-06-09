@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity Activity.
+    -->
+    <changeSet id="20240609164110-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="type_of_activity_id"
+                                 baseTableName="tb_activity"
+                                 constraintName="fk_tb_activity__type_of_activity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_type_activity"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="created_by_user_id"
+                                 baseTableName="tb_activity"
+                                 constraintName="fk_tb_activity__created_by_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_person"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="tb_activity_id"
+                                 baseTableName="rel_tb_activity__asset_collection"
+                                 constraintName="fk_rel_tb_activity__asset_collection__tb_activity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_activity"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="asset_collection_id"
+                                 baseTableName="rel_tb_activity__asset_collection"
+                                 constraintName="fk_rel_tb_activity__asset_collection__asset_collection_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_assets_collection"
+                                 />
+    </changeSet>
+</databaseChangeLog>

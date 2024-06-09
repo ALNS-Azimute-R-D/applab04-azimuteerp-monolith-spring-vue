@@ -1,0 +1,69 @@
+{
+  "annotations": {
+    "changelogDate": "20240609161810"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_payment",
+  "fields": [
+    {
+      "fieldName": "installmentNumber",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "paymentDueDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "paymentPaidDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "paymentAmount",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "typeOfPayment",
+      "fieldType": "PaymentTypeEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "CASH,CREDIT,DEBIT,BANK_TRANSFER,OTHER"
+    },
+    {
+      "fieldName": "statusPayment",
+      "fieldType": "PaymentStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "OPEN,DELAYED,PAID,CANCELLED"
+    },
+    {
+      "fieldName": "customAttributesDetailsJSON",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "2048"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "Payment",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "aliasCode",
+      "otherEntityName": "paymentGateway",
+      "otherEntityRelationshipName": "paymentsList",
+      "relationshipName": "paymentGateway",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

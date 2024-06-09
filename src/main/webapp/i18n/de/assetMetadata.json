@@ -1,0 +1,25 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "assetMetadata": {
+      "home": {
+        "title": "Asset Metadata",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Asset Metadata erstellen",
+        "createOrEditLabel": "Asset Metadata erstellen oder bearbeiten",
+        "notFound": "Keine Asset Metadata gefunden"
+      },
+      "created": "Asset Metadata erstellt mit ID { param }",
+      "updated": "Asset Metadata aktualisiert mit ID { param }",
+      "deleted": "Asset Metadata gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Asset Metadata { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Asset Metadata"
+      },
+      "id": "ID",
+      "metadataDetailsJSON": "Metadata Details JSON",
+      "asset": "Asset"
+    }
+  }
+}

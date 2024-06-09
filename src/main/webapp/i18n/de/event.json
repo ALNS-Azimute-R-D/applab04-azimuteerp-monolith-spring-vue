@@ -1,0 +1,39 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "event": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Event erstellen",
+        "createOrEditLabel": "Event erstellen oder bearbeiten",
+        "notFound": "Keine Events gefunden"
+      },
+      "created": "Event erstellt mit ID { param }",
+      "updated": "Event aktualisiert mit ID { param }",
+      "deleted": "Event gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Event { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Event"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "fullDescription": "Full Description",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "defaultTicketValue": "Default Ticket Value",
+      "status": "Status",
+      "activationStatus": "Activation Status",
+      "mainVenue": "Main Venue",
+      "typeOfEvent": "Type Of Event",
+      "promoteurPerson": "Promoteur Person",
+      "assetCollection": "Asset Collection",
+      "eventProgramsList": "Event Programs List",
+      "ticketsPurchasedList": "Tickets Purchased List",
+      "eventAttendeesList": "Event Attendees List"
+    }
+  }
+}

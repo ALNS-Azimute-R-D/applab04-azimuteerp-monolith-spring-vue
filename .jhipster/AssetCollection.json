@@ -1,0 +1,69 @@
+{
+  "annotations": {
+    "changelogDate": "20240609161510"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_assets_collection",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "512"
+    },
+    {
+      "fieldName": "fullFilenamePath",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "512"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "AssetCollection",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "asset",
+      "otherEntityRelationshipName": "assetCollection",
+      "relationshipName": "asset",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "article",
+      "otherEntityRelationshipName": "assetCollection",
+      "relationshipName": "article",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "assetCollection",
+      "relationshipName": "event",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "activity",
+      "otherEntityRelationshipName": "assetCollection",
+      "relationshipName": "activity",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "scheduledActivity",
+      "otherEntityRelationshipName": "assetCollection",
+      "relationshipName": "scheduledActivity",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

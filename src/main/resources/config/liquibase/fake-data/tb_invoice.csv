@@ -1,0 +1,11 @@
+id;business_code;invoice_date;due_date;description;tax_value;shipping_value;amount_due_value;number_of_installments_original;number_of_installments_paid;amount_paid_value;status;custom_attributes_details_json;activation_status
+1;ugh terrific pi;2024-06-09T01:34:31;2024-06-08T19:43:05;qua as;15082.44;6545.19;6579.24;20749;3169;31700.01;PAYING_IN_INSTALLMENTS;remake;INACTIVE
+2;gadzooks;2024-06-09T15:57:32;2024-06-09T00:02:15;key tart;2236.13;2870.06;6306.86;4499;14855;24594.14;PAID_ONCE;wonderfully fooey whoa;INVALID
+3;positively;2024-06-08T20:53:00;2024-06-08T21:50:12;screw;29955.67;2618.64;9542.04;18846;23529;18875.49;ISSUED;so;INVALID
+4;phooey aha pett;2024-06-09T00:39:03;2024-06-09T01:49:47;hobby given yowza;19382.22;6942.75;18414.44;24755;10143;3029.33;PAYING_IN_INSTALLMENTS;masticate papaya;ON_HOLD
+5;lonely er;2024-06-09T02:27:40;2024-06-09T03:34:02;gah zowie descriptive;22286.91;21205.78;4894.32;10337;24362;18734.56;PAID_ONCE;veterinarian;INACTIVE
+6;fervently;2024-06-09T07:23:52;2024-06-08T16:19:51;ruin aboard;28419.55;4856.03;15640.97;6407;27748;12480.41;ISSUED;cultured yahoo;INVALID
+7;downplay help f;2024-06-09T14:07:25;2024-06-09T09:33:45;misspend on athwart;18669.06;22465.47;25665.48;3976;16197;6731.06;PAYING_IN_INSTALLMENTS;mutiny full lunch;BLOCKED
+8;nicely edible;2024-06-08T21:13:51;2024-06-09T12:54:20;however majestically sheepishly;17507.35;18676.04;27176.56;20220;11602;7450.36;PAID_ONCE;fund unfit isogloss;ACTIVE
+9;yahoo;2024-06-08T18:37:38;2024-06-08T19:45:29;playfully so that;31277.34;6023.26;11777.28;10863;10770;29913.16;ISSUED;for;BLOCKED
+10;upside-down ugh;2024-06-09T15:18:17;2024-06-09T01:31:13;abaft how;22509;21775.29;13173.87;11521;10146;25497.91;PAID_ONCE;sneaky interestingly;ON_HOLD

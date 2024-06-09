@@ -1,0 +1,119 @@
+{
+  "annotations": {
+    "changelogDate": "20240609164210"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_event",
+  "fields": [
+    {
+      "fieldName": "acronym",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "50"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "150"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "fullDescription",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "2048"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "defaultTicketValue",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "EventStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "IN_PREVIEM,DRAFT,CONFIRMED,OPEN,RUNNING,PERFORMED,CANCELLED,DELETED,OTHER"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "Event",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "venue",
+      "otherEntityRelationshipName": "eventsList",
+      "relationshipName": "mainVenue",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "typeOfEvent",
+      "otherEntityRelationshipName": "eventsList",
+      "relationshipName": "typeOfEvent",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "fullname",
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "promotedEventsList",
+      "relationshipName": "promoteurPerson",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "assetCollection",
+      "otherEntityRelationshipName": "event",
+      "relationshipName": "assetCollection",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "eventProgram",
+      "otherEntityRelationshipName": "event",
+      "relationshipName": "eventProgramsList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ticketPurchased",
+      "otherEntityRelationshipName": "event",
+      "relationshipName": "ticketsPurchasedList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "eventAttendee",
+      "otherEntityRelationshipName": "event",
+      "relationshipName": "eventAttendeesList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

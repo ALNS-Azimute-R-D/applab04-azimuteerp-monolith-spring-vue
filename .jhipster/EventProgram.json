@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20240609164410"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_event_program",
+  "fields": [
+    {
+      "fieldName": "percentageExecution",
+      "fieldType": "Double"
+    }
+  ],
+  "name": "EventProgram",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "eventProgramsList",
+      "relationshipName": "event",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "program",
+      "otherEntityRelationshipName": "programsList",
+      "relationshipName": "program",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "fullname",
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "eventsProgramsList",
+      "relationshipName": "responsiblePerson",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

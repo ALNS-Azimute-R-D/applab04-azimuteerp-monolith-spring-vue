@@ -1,0 +1,31 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "eventAttendee": {
+      "home": {
+        "title": "Event Attendees",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Event Attendee",
+        "createOrEditLabel": "Criar ou editar Event Attendee",
+        "notFound": "Nenhum Event Attendee encontrado"
+      },
+      "created": "Um novo Event Attendee foi criado com o identificador { param }",
+      "updated": "Um Event Attendee foi atualizado com o identificador { param }",
+      "deleted": "Um Event Attendee foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Event Attendee { id }?"
+      },
+      "detail": {
+        "title": "Event Attendee"
+      },
+      "id": "ID",
+      "attendedAsRole": "Attended As Role",
+      "wasPresentInEvent": "Was Present In Event",
+      "shouldBuyTicket": "Should Buy Ticket",
+      "ticketNumber": "Ticket Number",
+      "seatNumber": "Seat Number",
+      "attendeePerson": "Attendee Person",
+      "event": "Event",
+      "ticketPurchased": "Ticket Purchased"
+    }
+  }
+}

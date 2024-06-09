@@ -1,0 +1,30 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "venue": {
+      "home": {
+        "title": "Venues",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Venue",
+        "createOrEditLabel": "Criar ou editar Venue",
+        "notFound": "Nenhum Venue encontrado"
+      },
+      "created": "Um novo Venue foi criado com o identificador { param }",
+      "updated": "Um Venue foi atualizado com o identificador { param }",
+      "deleted": "Um Venue foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Venue { id }?"
+      },
+      "detail": {
+        "title": "Venue"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "geoPointLocation": "Geo Point Location",
+      "typeOfVenue": "Type Of Venue",
+      "commonLocality": "Common Locality",
+      "eventsList": "Events List"
+    }
+  }
+}

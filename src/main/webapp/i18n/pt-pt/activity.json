@@ -1,0 +1,35 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "activity": {
+      "home": {
+        "title": "Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Activity",
+        "createOrEditLabel": "Criar ou editar Activity",
+        "notFound": "Nenhum Activities encontrado"
+      },
+      "created": "Um novo Activity foi criado com o identificador { param }",
+      "updated": "Activity com identificador { param } foi actualizado",
+      "deleted": "Activity com identificador { param } foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Activity { id }?"
+      },
+      "detail": {
+        "title": "Activity"
+      },
+      "id": "ID",
+      "name": "Name",
+      "shortDescription": "Short Description",
+      "fullDescription": "Full Description",
+      "mainGoals": "Main Goals",
+      "estimatedDurationTime": "Estimated Duration Time",
+      "lastPerformedDate": "Last Performed Date",
+      "createdAt": "Created At",
+      "activationStatus": "Activation Status",
+      "typeOfActivity": "Type Of Activity",
+      "createdByUser": "Created By User",
+      "assetCollection": "Asset Collection",
+      "scheduledActivitiesList": "Scheduled Activities List"
+    }
+  }
+}

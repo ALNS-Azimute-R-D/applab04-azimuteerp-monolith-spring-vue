@@ -1,0 +1,11 @@
+id;customer_business_code;fullname;custom_attributes_details_json;customer_status;activation_status;buyer_person_id
+1;apology;overlooked forthright;yet fiercely boldly;READY_TO_START;ACTIVE;1
+2;lazy pile;who tidy hmph;unless;PENDENT;INVALID;2
+3;loyal periodic;that than behove;sympathetically perfectly workhorse;PENDENT;INACTIVE;3
+4;resume;but hm sag;psych miserably;IN_FAILURE;INVALID;4
+5;roughly shop;shameful;depopulate cane;IN_FAILURE;BLOCKED;5
+6;outlook natural;granular naturalise;bandy unimpressively butcher;WORKING;PENDENT;6
+7;atmosphere pois;overlook urgently;than flashy sure-footed;ONBOARDING;ON_HOLD;7
+8;risk broad conv;since salt;prompt;WORKING;INVALID;8
+9;however mostly ;geez notify;notable compassionate;READY_TO_START;PENDENT;9
+10;hollow;secure ugh;insecure wallow once;ONBOARDING;ON_HOLD;10

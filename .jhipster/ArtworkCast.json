@@ -1,0 +1,57 @@
+{
+  "annotations": {
+    "changelogDate": "20240609163610"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_artwork_cast",
+  "fields": [
+    {
+      "fieldName": "orderOfAppearance",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "characterName",
+      "fieldType": "String",
+      "fieldValidateRules": ["minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "255",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "mainAssetUUID",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "characterDetailsJSON",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "2048"
+    }
+  ],
+  "name": "ArtworkCast",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "artworkTitle",
+      "otherEntityName": "artwork",
+      "otherEntityRelationshipName": "artworkCastsList",
+      "relationshipName": "artwork",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "publicName",
+      "otherEntityName": "artist",
+      "otherEntityRelationshipName": "artworkCastsList",
+      "relationshipName": "artist",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

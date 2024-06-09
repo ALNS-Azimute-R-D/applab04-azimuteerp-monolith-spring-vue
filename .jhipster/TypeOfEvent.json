@@ -1,0 +1,48 @@
+{
+  "annotations": {
+    "changelogDate": "20240609163710"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "documentation": "- TypeOfEvent\\n- TypeOfVenue\\n- TypeOfActivity\\n- Venue\\n- Activity\\n- Event\\n- Program\\n- EventProgram\\n- ScheduledActivity\\n- EventAttendee\\n- TicketPurchased",
+  "dto": "mapstruct",
+  "entityTableName": "tb_type_event",
+  "fields": [
+    {
+      "fieldName": "acronym",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "30"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "handlerClazzName",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "name": "TypeOfEvent",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "typeOfEvent",
+      "relationshipName": "eventsList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

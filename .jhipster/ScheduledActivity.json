@@ -1,0 +1,82 @@
+{
+  "annotations": {
+    "changelogDate": "20240609164510"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_scheduled_activity",
+  "fields": [
+    {
+      "fieldName": "customizedName",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "150"
+    },
+    {
+      "fieldName": "startTime",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endTime",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "numberOfAttendees",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "averageEvaluationInStars",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "customAttributtesDetailsJSON",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "4096"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "ScheduledActivity",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "program",
+      "otherEntityRelationshipName": "scheduledActivitiesList",
+      "relationshipName": "program",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "activity",
+      "otherEntityRelationshipName": "scheduledActivitiesList",
+      "relationshipName": "activity",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "fullname",
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "scheduledActivitiesList",
+      "relationshipName": "responsiblePerson",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "assetCollection",
+      "otherEntityRelationshipName": "scheduledActivity",
+      "relationshipName": "assetCollection",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

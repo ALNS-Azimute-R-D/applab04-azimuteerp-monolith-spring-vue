@@ -1,0 +1,28 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "typeOfEvent": {
+      "home": {
+        "title": "Type Of Events",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Type Of Event",
+        "createOrEditLabel": "Criar ou editar Type Of Event",
+        "notFound": "Nenhum Type Of Event encontrado"
+      },
+      "created": "Um novo Type Of Event foi criado com o identificador { param }",
+      "updated": "Um Type Of Event foi atualizado com o identificador { param }",
+      "deleted": "Um Type Of Event foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Type Of Event { id }?"
+      },
+      "detail": {
+        "title": "Type Of Event"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "handlerClazzName": "Handler Clazz Name",
+      "eventsList": "Events List"
+    }
+  }
+}

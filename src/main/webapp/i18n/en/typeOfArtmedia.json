@@ -1,0 +1,28 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "typeOfArtmedia": {
+      "home": {
+        "title": "Type Of Artmedias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Type Of Artmedia",
+        "createOrEditLabel": "Create or edit a Type Of Artmedia",
+        "notFound": "No Type Of Artmedias found"
+      },
+      "created": "A new Type Of Artmedia is created with identifier { param }",
+      "updated": "A Type Of Artmedia is updated with identifier { param }",
+      "deleted": "A Type Of Artmedia is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Type Of Artmedia { id }?"
+      },
+      "detail": {
+        "title": "Type Of Artmedia"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "artistsList": "Artists List",
+      "artworksList": "Artworks List"
+    }
+  }
+}

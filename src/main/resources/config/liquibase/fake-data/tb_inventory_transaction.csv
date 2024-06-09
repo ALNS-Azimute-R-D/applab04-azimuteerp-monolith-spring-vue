@@ -1,0 +1,11 @@
+id;invoice_id;transaction_created_date;transaction_modified_date;quantity;transaction_comments;activation_status;supplier_id;product_id;warehouse_id
+1;1940;2024-06-09T07:33:46;2024-06-09T11:38:03;10467;helpfully thunderous;INACTIVE;1;1;1
+2;25943;2024-06-08T23:20:26;2024-06-09T08:48:30;4626;pace abandoned;ACTIVE;2;2;2
+3;3405;2024-06-09T15:51:04;2024-06-08T17:28:16;30796;enthusiastically gosh eek;ON_HOLD;3;3;3
+4;11925;2024-06-09T15:55:00;2024-06-09T10:54:31;14285;outpace wingtip mysteriously;INACTIVE;4;4;4
+5;3938;2024-06-09T14:13:58;2024-06-09T15:25:07;22131;canalize hm;INVALID;5;5;5
+6;31796;2024-06-09T16:17:02;2024-06-09T08:50:37;16025;given simplistic idolized;BLOCKED;6;6;6
+7;9659;2024-06-08T22:58:34;2024-06-09T15:15:57;2981;concerning throughout;ACTIVE;7;7;7
+8;21353;2024-06-08T21:12:32;2024-06-09T00:45:09;4821;crystallise regarding;PENDENT;8;8;8
+9;5517;2024-06-09T10:29:56;2024-06-08T20:15:50;13902;oh hard-to-find southeast;BLOCKED;9;9;9
+10;30219;2024-06-09T09:48:53;2024-06-09T14:20:56;10456;lively revere;ACTIVE;10;10;10

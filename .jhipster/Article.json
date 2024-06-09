@@ -1,0 +1,77 @@
+{
+  "annotations": {
+    "changelogDate": "20240609162810"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_article",
+  "fields": [
+    {
+      "fieldName": "inventoryProductId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "skuCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "60"
+    },
+    {
+      "fieldName": "customName",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "150"
+    },
+    {
+      "fieldName": "customDescription",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "8192"
+    },
+    {
+      "fieldName": "priceValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "itemSize",
+      "fieldType": "SizeOptionEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "S,M,L,XL,XXL,XXXL"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "Article",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "assetCollection",
+      "otherEntityRelationshipName": "article",
+      "relationshipName": "assetCollection",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "category",
+      "otherEntityRelationshipName": "articlesList",
+      "relationshipName": "mainCategory",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "orderItem",
+      "otherEntityRelationshipName": "article",
+      "relationshipName": "ordersItemsList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

@@ -1,0 +1,37 @@
+{
+  "annotations": {
+    "changelogDate": "20240609161010"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_organization_member_role",
+  "fields": [
+    {
+      "fieldName": "joinedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "OrganizationMemberRole",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "organizationMembership",
+      "otherEntityRelationshipName": "organizationMemberRolesList",
+      "relationshipName": "organizationMembership",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "organizationRole",
+      "otherEntityRelationshipName": "organizationMemberRolesList",
+      "relationshipName": "organizationRole",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

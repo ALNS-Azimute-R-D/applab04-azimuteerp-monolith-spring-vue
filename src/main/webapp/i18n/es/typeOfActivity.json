@@ -1,0 +1,28 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "typeOfActivity": {
+      "home": {
+        "title": "Type Of Activities",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Type Of Activity",
+        "createOrEditLabel": "Crear o editar Type Of Activity",
+        "notFound": "Ningún Type Of Activities encontrado"
+      },
+      "created": "Un nuevo Type Of Activity ha sido creado con el identificador { param }",
+      "updated": "Un Type Of Activity ha sido actualizado con el identificador { param }",
+      "deleted": "Un Type Of Activity ha sido eliminado con el identificador { param }",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Type Of Activity { id }?"
+      },
+      "detail": {
+        "title": "Type Of Activity"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "handlerClazzName": "Handler Clazz Name",
+      "activitiesList": "Activities List"
+    }
+  }
+}

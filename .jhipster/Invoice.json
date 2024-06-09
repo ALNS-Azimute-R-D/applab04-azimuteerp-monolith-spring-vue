@@ -1,0 +1,102 @@
+{
+  "annotations": {
+    "changelogDate": "20240609161610"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "documentation": "- Invoice\\n- PaymentMethod\\n- Payment",
+  "dto": "mapstruct",
+  "entityTableName": "tb_invoice",
+  "fields": [
+    {
+      "fieldName": "businessCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "15"
+    },
+    {
+      "fieldName": "invoiceDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "dueDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "80"
+    },
+    {
+      "fieldName": "taxValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "shippingValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "amountDueValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "numberOfInstallmentsOriginal",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "numberOfInstallmentsPaid",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "amountPaidValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "InvoiceStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PAID_ONCE,PAYING_IN_INSTALLMENTS,ISSUED,CANCELLED"
+    },
+    {
+      "fieldName": "customAttributesDetailsJSON",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "4096"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "Invoice",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "aliasCode",
+      "otherEntityName": "paymentGateway",
+      "otherEntityRelationshipName": "invoicesAsPreferrableList",
+      "relationshipName": "preferrablePaymentGateway",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "order",
+      "otherEntityRelationshipName": "invoice",
+      "relationshipName": "ordersList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ticketPurchased",
+      "otherEntityRelationshipName": "invoice",
+      "relationshipName": "ticketsPurchasedList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

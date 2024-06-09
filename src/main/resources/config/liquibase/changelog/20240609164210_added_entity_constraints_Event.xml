@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity Event.
+    -->
+    <changeSet id="20240609164210-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="main_venue_id"
+                                 baseTableName="tb_event"
+                                 constraintName="fk_tb_event__main_venue_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_venue"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="type_of_event_id"
+                                 baseTableName="tb_event"
+                                 constraintName="fk_tb_event__type_of_event_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_type_event"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="promoteur_person_id"
+                                 baseTableName="tb_event"
+                                 constraintName="fk_tb_event__promoteur_person_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_person"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="tb_event_id"
+                                 baseTableName="rel_tb_event__asset_collection"
+                                 constraintName="fk_rel_tb_event__asset_collection__tb_event_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_event"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="asset_collection_id"
+                                 baseTableName="rel_tb_event__asset_collection"
+                                 constraintName="fk_rel_tb_event__asset_collection__asset_collection_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_assets_collection"
+                                 />
+    </changeSet>
+</databaseChangeLog>

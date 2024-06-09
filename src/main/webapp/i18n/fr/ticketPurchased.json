@@ -1,0 +1,33 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "ticketPurchased": {
+      "home": {
+        "title": "TicketPurchaseds",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Ticket Purchased",
+        "createOrEditLabel": "Créer ou éditer un Ticket Purchased",
+        "notFound": "Aucun Ticket Purchased trouvé"
+      },
+      "created": "Un nouveau Ticket Purchased a été créé avec l'identifiant { param }",
+      "updated": "Le Ticket Purchased avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Ticket Purchased avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Ticket Purchased { id } ?"
+      },
+      "detail": {
+        "title": "Ticket Purchased"
+      },
+      "id": "ID",
+      "buyingCode": "Buying Code",
+      "duePaymentDate": "Due Payment Date",
+      "amountOfTickets": "Amount Of Tickets",
+      "taxValue": "Tax Value",
+      "ticketValue": "Ticket Value",
+      "acquiredSeatsNumbers": "Acquired Seats Numbers",
+      "description": "Description",
+      "event": "Event",
+      "invoice": "Invoice",
+      "eventAttendeesList": "Event Attendees List"
+    }
+  }
+}

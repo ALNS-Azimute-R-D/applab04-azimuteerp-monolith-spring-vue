@@ -1,0 +1,13 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "ActivationStatusEnum": {
+      "null": "",
+      "INACTIVE": "INACTIVE",
+      "ACTIVE": "ACTIVE",
+      "ON_HOLD": "ON_HOLD",
+      "PENDENT": "PENDENT",
+      "BLOCKED": "BLOCKED",
+      "INVALID": "INVALID"
+    }
+  }
+}

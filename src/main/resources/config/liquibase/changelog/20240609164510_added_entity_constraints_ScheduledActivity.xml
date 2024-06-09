@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity ScheduledActivity.
+    -->
+    <changeSet id="20240609164510-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="program_id"
+                                 baseTableName="tb_scheduled_activity"
+                                 constraintName="fk_tb_scheduled_activity__program_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_program"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="activity_id"
+                                 baseTableName="tb_scheduled_activity"
+                                 constraintName="fk_tb_scheduled_activity__activity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_activity"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="responsible_person_id"
+                                 baseTableName="tb_scheduled_activity"
+                                 constraintName="fk_tb_scheduled_activity__responsible_person_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_person"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="tb_scheduled_activity_id"
+                                 baseTableName="rel_tb_scheduled_activity__asset_collection"
+                                 constraintName="fk_rel_tb_scheduled_activity__a__tb_scheduled_activity_51_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_scheduled_activity"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="asset_collection_id"
+                                 baseTableName="rel_tb_scheduled_activity__asset_collection"
+                                 constraintName="fk_rel_tb_scheduled_activity__a__asset_collection_33_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_assets_collection"
+                                 />
+    </changeSet>
+</databaseChangeLog>

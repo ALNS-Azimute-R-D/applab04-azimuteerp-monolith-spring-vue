@@ -1,0 +1,72 @@
+{
+  "annotations": {
+    "changelogDate": "20240609164710"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "dto": "mapstruct",
+  "entityTableName": "tb_ticket_purchased",
+  "fields": [
+    {
+      "fieldName": "buyingCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "30"
+    },
+    {
+      "fieldName": "duePaymentDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "amountOfTickets",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "taxValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "ticketValue",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "acquiredSeatsNumbers",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "50"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "name": "TicketPurchased",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "acronym",
+      "otherEntityName": "event",
+      "otherEntityRelationshipName": "ticketsPurchasedList",
+      "relationshipName": "event",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "invoice",
+      "otherEntityRelationshipName": "ticketsPurchasedList",
+      "relationshipName": "invoice",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "eventAttendee",
+      "otherEntityRelationshipName": "ticketPurchased",
+      "relationshipName": "eventAttendeesList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

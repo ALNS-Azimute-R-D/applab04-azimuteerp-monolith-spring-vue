@@ -1,0 +1,27 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "eventProgram": {
+      "home": {
+        "title": "Event Programs",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Event Program",
+        "createOrEditLabel": "Crear o editar Event Program",
+        "notFound": "Ningún Event Programs encontrado"
+      },
+      "created": "Un nuevo Event Program ha sido creado con el identificador { param }",
+      "updated": "Un Event Program ha sido actualizado con el identificador { param }",
+      "deleted": "Un Event Program ha sido eliminado con el identificador { param }",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Event Program { id }?"
+      },
+      "detail": {
+        "title": "Event Program"
+      },
+      "id": "ID",
+      "percentageExecution": "Percentage Execution",
+      "event": "Event",
+      "program": "Program",
+      "responsiblePerson": "Responsible Person"
+    }
+  }
+}

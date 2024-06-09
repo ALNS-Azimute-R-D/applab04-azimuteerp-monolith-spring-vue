@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: application-config
+  namespace: azimuteerp-platform
+#common configuration shared between all applications
+data:
+  application.yml: |-
+    configserver:
+      name: Consul
+      status: Connected to Consul running in Kubernetes
+    jhipster:
+      security:
+        authentication:
+          jwt:
+            base64-secret: NmE3ZmNlMDdkMDQzMGE0ZDgwZGI2OTQzMmJmN2QyZDcyNjUxZDZhMmM5MDJlM2EyNGJlOWI2MmQ1NWIwYmNkYzAxNzJiMzYwNjdlOTRjZDIwYzg3NTg4YWM1MDE1MDdiZDhmZA==
+  # app specific configuration

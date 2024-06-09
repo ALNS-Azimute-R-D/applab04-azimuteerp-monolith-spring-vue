@@ -1,0 +1,34 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "artwork": {
+      "home": {
+        "title": "Artworks",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Artwork",
+        "createOrEditLabel": "Criar ou editar Artwork",
+        "notFound": "Nenhum Artwork encontrado"
+      },
+      "created": "Um novo Artwork foi criado com o identificador { param }",
+      "updated": "Um Artwork foi atualizado com o identificador { param }",
+      "deleted": "Um Artwork foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Artwork { id }?"
+      },
+      "detail": {
+        "title": "Artwork"
+      },
+      "id": "ID",
+      "artworkTitle": "Artwork Title",
+      "productionYear": "Production Year",
+      "seasonNumber": "Season Number",
+      "episodeOrSequenceNumber": "Episode Or Sequence Number",
+      "registerIdInIMDB": "Register Id In IMDB",
+      "assetsCollectionUUID": "Assets Collection UUID",
+      "contentDetailsJSON": "Content Details JSON",
+      "typeOfArtmedia": "Type Of Artmedia",
+      "artworkAggregator": "Artwork Aggregator",
+      "artworkCastsList": "Artwork Casts List",
+      "linkedArtworksList": "Linked Artworks List"
+    }
+  }
+}

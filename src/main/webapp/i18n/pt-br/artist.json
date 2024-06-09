@@ -1,0 +1,33 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "artist": {
+      "home": {
+        "title": "Artists",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Artist",
+        "createOrEditLabel": "Criar ou editar Artist",
+        "notFound": "Nenhum Artist encontrado"
+      },
+      "created": "Um novo Artist foi criado com o identificador { param }",
+      "updated": "Um Artist foi atualizado com o identificador { param }",
+      "deleted": "Um Artist foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Artist { id }?"
+      },
+      "detail": {
+        "title": "Artist"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "publicName": "Public Name",
+      "realName": "Real Name",
+      "biographyDetailsJSON": "Biography Details JSON",
+      "typeOfArtmedia": "Type Of Artmedia",
+      "typeOfArtist": "Type Of Artist",
+      "artistAggregator": "Artist Aggregator",
+      "artist": "Artist",
+      "artworkCastsList": "Artwork Casts List",
+      "linkedArtistsList": "Linked Artists List"
+    }
+  }
+}

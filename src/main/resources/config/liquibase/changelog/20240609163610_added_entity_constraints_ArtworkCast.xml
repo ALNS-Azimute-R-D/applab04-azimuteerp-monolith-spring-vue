@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <!--
+        Added the constraints for entity ArtworkCast.
+    -->
+    <changeSet id="20240609163610-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="artwork_id"
+                                 baseTableName="tb_artwork_cast"
+                                 constraintName="fk_tb_artwork_cast__artwork_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_artwork"
+                                 />
+
+        <addForeignKeyConstraint baseColumnNames="artist_id"
+                                 baseTableName="tb_artwork_cast"
+                                 constraintName="fk_tb_artwork_cast__artist_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tb_artist"
+                                 />
+    </changeSet>
+</databaseChangeLog>

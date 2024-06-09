@@ -1,0 +1,11 @@
+id;acronym;business_code;hierarchical_level;name;description;business_handler_clazz;main_contact_person_details_json;technical_environments_details_json;custom_attributes_details_json;organization_status;activation_status;logo_img;logo_img_content_type;tenant_id;type_of_organization_id
+1;bony upon;lovely;after eek;waterlogged boo;before cluttered throughout;ew;whose off why;opulent tremendously zowie;whose inasmuch;READY_TO_START;BLOCKED;../fake-data/blob/hipster.png;image/png;1;1
+2;hence route;quiet as gadzoo;questioningly;gee lightly massive;road macerate bench;whereas;incidentally;frigid behind;limber cramp small;UNDER_EVALUATION;PENDENT;../fake-data/blob/hipster.png;image/png;2;2
+3;daring hmph;ah;nuke edition;trail;furthermore landscape;puffin merrily;blah;that furthermore how;blissful meh huzzah;WORKING;BLOCKED;../fake-data/blob/hipster.png;image/png;3;3
+4;nimble worrisome wri;beautifully smi;sour slander;evenly;buttonhole;beyond transfer;whereas ugh;bashfully under screen;winch;WORKING;INVALID;../fake-data/blob/hipster.png;image/png;4;4
+5;aw;anchored slow w;mango wherever;flustered;if hard pish;nervously whoever inasmuch;hot notwithstanding;aboard out;speedily legitimate;UNDER_EVALUATION;ACTIVE;../fake-data/blob/hipster.png;image/png;5;5
+6;gadzooks vitrify opp;custody till bl;consequently;er immaculate like;gratefully decimal ha;exotic;calm;toward lustrous;roster;IN_FAILURE;INACTIVE;../fake-data/blob/hipster.png;image/png;6;6
+7;lightly;folklore jam;for gah;actually mmm;window valuable;speedily partial full;between;toward yum mound;even contraindicate;IN_FAILURE;ACTIVE;../fake-data/blob/hipster.png;image/png;7;7
+8;astride lest when;finally;yippee cool duh;improbable infatuated;awkwardly mmm petty;uh-huh;curd;flag pro verbally;down detector;READY_TO_START;INACTIVE;../fake-data/blob/hipster.png;image/png;8;8
+9;devastate;utility strange;radish silo;comfortable electric per;mmm though frightfully;disprove pollard;knotty amid;although;within aha;IN_FAILURE;INVALID;../fake-data/blob/hipster.png;image/png;9;9
+10;sadly after;readily bah;about closely;grateful;indeed junior that;reproach;the pish yet;unlock;yippee meanwhile;ONBOARDING;PENDENT;../fake-data/blob/hipster.png;image/png;10;10

@@ -1,0 +1,11 @@
+id;name;storage_type_used;full_filename_path;status;preferred_purpose;asset_content_as_blob;asset_content_as_blob_content_type;activation_status;asset_type_id
+1;voluminous anxiously quirkily;LOCAL_FILESYSTEM;above;DELETED;LOGO_IMG;../fake-data/blob/hipster.png;image/png;INACTIVE;1
+2;crossly meanwhile;BLOB_IN_DB;what or leach;DISABLED;USER_AVATAR;../fake-data/blob/hipster.png;image/png;ACTIVE;2
+3;refrain;REMOTE_FILESYSTEM;jalapeño;DISABLED;ANY_OFFICE_FILE_TYPE;../fake-data/blob/hipster.png;image/png;INACTIVE;3
+4;once lesson circumference;LOCAL_MINIO;pish;ENABLED;OTHER;../fake-data/blob/hipster.png;image/png;PENDENT;4
+5;compassion;OTHER_CLOUD_STORAGE;vivaciously;DELETED;EXECUTABLE_PROGRAM_BINARY;../fake-data/blob/hipster.png;image/png;INVALID;5
+6;via oddly;LOCAL_MINIO;meat;DISABLED;USER_AVATAR;../fake-data/blob/hipster.png;image/png;ON_HOLD;6
+7;incentivise nor attractive;OTHER_CLOUD_STORAGE;painfully kindheartedly even;DELETED;OTHER;../fake-data/blob/hipster.png;image/png;INVALID;7
+8;whoever when revolt;LOCAL_MINIO;bogus;DISABLED;EXECUTABLE_PROGRAM_BINARY;../fake-data/blob/hipster.png;image/png;PENDENT;8
+9;blame;REMOTE_MINIO;germinate afternoon zany;DELETED;USER_AVATAR;../fake-data/blob/hipster.png;image/png;INVALID;9
+10;slowly;BLOB_IN_DB;what joyous;ENABLED;PHOTO_ALBUM;../fake-data/blob/hipster.png;image/png;BLOCKED;10

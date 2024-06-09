@@ -1,0 +1,13 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "SizeOptionEnum": {
+      "null": "",
+      "S": "S",
+      "M": "M",
+      "L": "L",
+      "XL": "XL",
+      "XXL": "XXL",
+      "XXXL": "XXXL"
+    }
+  }
+}

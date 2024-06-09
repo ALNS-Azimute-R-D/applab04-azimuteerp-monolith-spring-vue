@@ -1,0 +1,80 @@
+{
+  "annotations": {
+    "changelogDate": "20240609162510"
+  },
+  "applications": ["azimuteERPSpringVueMonolith04"],
+  "documentation": "- Category\\n- Article\\n- Order\\n- OrderItem",
+  "dto": "mapstruct",
+  "entityTableName": "tb_customer",
+  "fields": [
+    {
+      "fieldName": "customerBusinessCode",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "15"
+    },
+    {
+      "fieldName": "fullname",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "80",
+      "fieldValidateRulesMinlength": "2"
+    },
+    {
+      "fieldName": "customAttributesDetailsJSON",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "2048"
+    },
+    {
+      "fieldName": "customerStatus",
+      "fieldType": "CustomerStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "UNDER_EVALUATION,ONBOARDING,READY_TO_START,WORKING,PENDENT,IN_FAILURE"
+    },
+    {
+      "fieldName": "activationStatus",
+      "fieldType": "ActivationStatusEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "INACTIVE,ACTIVE,ON_HOLD,PENDENT,BLOCKED,INVALID"
+    }
+  ],
+  "name": "Customer",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "lastname",
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "customersList",
+      "relationshipName": "buyerPerson",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "customerType",
+      "otherEntityRelationshipName": "customersList",
+      "relationshipName": "customerType",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "district",
+      "otherEntityRelationshipName": "customersList",
+      "relationshipName": "district",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "order",
+      "otherEntityRelationshipName": "customer",
+      "relationshipName": "ordersList",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

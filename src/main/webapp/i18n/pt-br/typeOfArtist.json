@@ -1,0 +1,27 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "typeOfArtist": {
+      "home": {
+        "title": "Type Of Artists",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Type Of Artist",
+        "createOrEditLabel": "Criar ou editar Type Of Artist",
+        "notFound": "Nenhum Type Of Artist encontrado"
+      },
+      "created": "Um novo Type Of Artist foi criado com o identificador { param }",
+      "updated": "Um Type Of Artist foi atualizado com o identificador { param }",
+      "deleted": "Um Type Of Artist foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Type Of Artist { id }?"
+      },
+      "detail": {
+        "title": "Type Of Artist"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "artistsList": "Artists List"
+    }
+  }
+}

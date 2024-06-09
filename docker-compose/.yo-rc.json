@@ -1,0 +1,14 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [],
+    "clusteredDbApps": [],
+    "deploymentType": "docker-compose",
+    "directoryPath": "../",
+    "dockerRepositoryName": "scout23df",
+    "gatewayType": "SpringCloudGateway",
+    "jhipsterVersion": "8.5.0",
+    "jwtSecretKey": "Y2EzM2IwMGU1NTY1NzEyMTNlMWExZTY4YjliZDQ5M2EyMmQwNjBmZmQ5NzA1MWRmNGVmN2JhOTBjOTgzZDVhNTRmODM3ZDcyMTU0NmFlNzA3MDgxOGNmMjhkZTM1Y2RlODYyOQ==",
+    "monitoring": "yes",
+    "serviceDiscoveryType": "consul"
+  }
+}

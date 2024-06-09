@@ -1,0 +1,28 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "typeOfVenue": {
+      "home": {
+        "title": "Type Of Venues",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Type Of Venue",
+        "createOrEditLabel": "Criar ou editar Type Of Venue",
+        "notFound": "Nenhum Type Of Venue encontrado"
+      },
+      "created": "Um novo Type Of Venue foi criado com o identificador { param }",
+      "updated": "Um Type Of Venue foi atualizado com o identificador { param }",
+      "deleted": "Um Type Of Venue foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Type Of Venue { id }?"
+      },
+      "detail": {
+        "title": "Type Of Venue"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "handlerClazzName": "Handler Clazz Name",
+      "venuesList": "Venues List"
+    }
+  }
+}

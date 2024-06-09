@@ -1,0 +1,3 @@
+org.springframework.test.context.ContextCustomizerFactory = org.dexterity.\
+    darueira.azimuteerp.monolith.springvue.config.\
+    SqlTestContainersSpringContextCustomizerFactory

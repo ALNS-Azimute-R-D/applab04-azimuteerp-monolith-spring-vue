@@ -1,0 +1,41 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "supplier": {
+      "home": {
+        "title": "Suppliers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Supplier",
+        "createOrEditLabel": "Criar ou editar Supplier",
+        "notFound": "Nenhum Suppliers encontrado"
+      },
+      "created": "Um novo Supplier foi criado com o identificador { param }",
+      "updated": "Supplier com identificador { param } foi actualizado",
+      "deleted": "Supplier com identificador { param } foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Supplier { id }?"
+      },
+      "detail": {
+        "title": "Supplier"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "companyName": "Company Name",
+      "streetAddress": "Street Address",
+      "houseNumber": "House Number",
+      "locationName": "Location Name",
+      "city": "City",
+      "stateProvince": "State Province",
+      "zipPostalCode": "Zip Postal Code",
+      "countryRegion": "Country Region",
+      "pointLocation": "Point Location",
+      "mainEmail": "Main Email",
+      "phoneNumber1": "Phone Number 1",
+      "phoneNumber2": "Phone Number 2",
+      "customAttributesDetailsJSON": "Custom Attributes Details JSON",
+      "activationStatus": "Activation Status",
+      "representativePerson": "Representative Person",
+      "inventoryTransactionsList": "Inventory Transactions List",
+      "toProduct": "To Product"
+    }
+  }
+}

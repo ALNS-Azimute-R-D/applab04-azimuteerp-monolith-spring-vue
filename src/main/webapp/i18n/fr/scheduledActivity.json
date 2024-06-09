@@ -1,0 +1,34 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "scheduledActivity": {
+      "home": {
+        "title": "ScheduledActivities",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Scheduled Activity",
+        "createOrEditLabel": "Créer ou éditer un Scheduled Activity",
+        "notFound": "Aucun Scheduled Activity trouvé"
+      },
+      "created": "Un nouveau Scheduled Activity a été créé avec l'identifiant { param }",
+      "updated": "Le Scheduled Activity avec l'identifiant { param } a été mis à jour",
+      "deleted": "Le Scheduled Activity avec l'identifiant { param } a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Scheduled Activity { id } ?"
+      },
+      "detail": {
+        "title": "Scheduled Activity"
+      },
+      "id": "ID",
+      "customizedName": "Customized Name",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "numberOfAttendees": "Number Of Attendees",
+      "averageEvaluationInStars": "Average Evaluation In Stars",
+      "customAttributtesDetailsJSON": "Custom Attributtes Details JSON",
+      "activationStatus": "Activation Status",
+      "program": "Program",
+      "activity": "Activity",
+      "responsiblePerson": "Responsible Person",
+      "assetCollection": "Asset Collection"
+    }
+  }
+}

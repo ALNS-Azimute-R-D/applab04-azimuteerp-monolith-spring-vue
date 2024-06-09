@@ -1,0 +1,29 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "artworkCast": {
+      "home": {
+        "title": "Artwork Casts",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Artwork Cast",
+        "createOrEditLabel": "Crear o editar Artwork Cast",
+        "notFound": "Ningún Artwork Casts encontrado"
+      },
+      "created": "Un nuevo Artwork Cast ha sido creado con el identificador { param }",
+      "updated": "Un Artwork Cast ha sido actualizado con el identificador { param }",
+      "deleted": "Un Artwork Cast ha sido eliminado con el identificador { param }",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Artwork Cast { id }?"
+      },
+      "detail": {
+        "title": "Artwork Cast"
+      },
+      "id": "ID",
+      "orderOfAppearance": "Order Of Appearance",
+      "characterName": "Character Name",
+      "mainAssetUUID": "Main Asset UUID",
+      "characterDetailsJSON": "Character Details JSON",
+      "artwork": "Artwork",
+      "artist": "Artist"
+    }
+  }
+}

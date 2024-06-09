@@ -1,0 +1,35 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "tenant": {
+      "home": {
+        "title": "Tenants",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Tenant",
+        "createOrEditLabel": "Criar ou editar Tenant",
+        "notFound": "Nenhum Tenant encontrado"
+      },
+      "created": "Um novo Tenant foi criado com o identificador { param }",
+      "updated": "Um Tenant foi atualizado com o identificador { param }",
+      "deleted": "Um Tenant foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Tenant { id }?"
+      },
+      "detail": {
+        "title": "Tenant"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "customerBusinessCode": "Customer Business Code",
+      "businessHandlerClazz": "Business Handler Clazz",
+      "mainContactPersonDetailsJSON": "Main Contact Person Details JSON",
+      "billingDetailsJSON": "Billing Details JSON",
+      "technicalEnvironmentsDetailsJSON": "Technical Environments Details JSON",
+      "customAttributesDetailsJSON": "Custom Attributes Details JSON",
+      "logoImg": "Logo Img",
+      "activationStatus": "Activation Status",
+      "organizationsList": "Organizations List"
+    }
+  }
+}

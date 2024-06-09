@@ -1,0 +1,33 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "artist": {
+      "home": {
+        "title": "Artists",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Artist erstellen",
+        "createOrEditLabel": "Artist erstellen oder bearbeiten",
+        "notFound": "Keine Artists gefunden"
+      },
+      "created": "Artist erstellt mit ID { param }",
+      "updated": "Artist aktualisiert mit ID { param }",
+      "deleted": "Artist gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Artist { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Artist"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "publicName": "Public Name",
+      "realName": "Real Name",
+      "biographyDetailsJSON": "Biography Details JSON",
+      "typeOfArtmedia": "Type Of Artmedia",
+      "typeOfArtist": "Type Of Artist",
+      "artistAggregator": "Artist Aggregator",
+      "artist": "Artist",
+      "artworkCastsList": "Artwork Casts List",
+      "linkedArtistsList": "Linked Artists List"
+    }
+  }
+}

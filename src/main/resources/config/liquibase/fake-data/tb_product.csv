@@ -1,0 +1,11 @@
+id;product_sku;product_name;description;standard_cost;list_price;reorder_level;target_level;quantity_per_unit;discontinued;minimum_reorder_quantity;suggested_category;attachments;attachments_content_type;activation_status;brand_id
+1;attraction;truthfully majestically settlement;unless agonizing upright;1069.44;1009.32;31994;17608;per among round;false;7313;beard buoyant but;../fake-data/blob/hipster.png;image/png;BLOCKED;1
+2;midst floor irresponsible;provided traumatic mist;quickly formamide unexpectedly;19567.31;20322.18;3102;9735;in great;false;21204;wherever;../fake-data/blob/hipster.png;image/png;BLOCKED;2
+3;cuddly for our;questioningly;safely tangible;7192.5;20014.51;17440;1618;writhing designer;false;13069;as ugh terribly;../fake-data/blob/hipster.png;image/png;INVALID;3
+4;drat underneath;furthermore;famously;32679.31;27097.76;28568;2935;hmph perpetrate;true;4583;majestically pro;../fake-data/blob/hipster.png;image/png;ACTIVE;4
+5;tense excitedly shocking;jittery flint zowie;disabuse when finally;14010.08;14065.86;7149;2828;baffle;false;15970;throughout belated keel;../fake-data/blob/hipster.png;image/png;INVALID;5
+6;but who stew;cooperative unimpressively;diary;27321.44;14619.2;24542;2216;ready near than;true;25898;reassuringly bawl afore;../fake-data/blob/hipster.png;image/png;PENDENT;6
+7;inasmuch well-informed;blah nestmate;likewise leaver;13472.85;28778.47;5008;6647;numb;false;30345;dairy;../fake-data/blob/hipster.png;image/png;BLOCKED;7
+8;after upbeat including;slowly perky;manservant for even;16029.85;3144.98;6341;7238;actual blah;false;6147;above meal;../fake-data/blob/hipster.png;image/png;PENDENT;8
+9;yum immediately crossly;ack;owlishly knowledgeably;25674.08;10440;30967;2152;whoever;true;27846;relaxation;../fake-data/blob/hipster.png;image/png;PENDENT;9
+10;skid whoever;judicious;reopen lumpy;21832.03;22716.94;32314;5876;ordination until;false;6588;readiness;../fake-data/blob/hipster.png;image/png;INVALID;10

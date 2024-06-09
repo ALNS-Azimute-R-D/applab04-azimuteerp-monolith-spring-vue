@@ -1,0 +1,31 @@
+{
+  "azimuteErpSpringVueMonolith04App": {
+    "program": {
+      "home": {
+        "title": "Programs",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Program erstellen",
+        "createOrEditLabel": "Program erstellen oder bearbeiten",
+        "notFound": "Keine Programs gefunden"
+      },
+      "created": "Program erstellt mit ID { param }",
+      "updated": "Program aktualisiert mit ID { param }",
+      "deleted": "Program gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Program { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Program"
+      },
+      "id": "ID",
+      "acronym": "Acronym",
+      "name": "Name",
+      "description": "Description",
+      "fullDescription": "Full Description",
+      "targetPublic": "Target Public",
+      "activationStatus": "Activation Status",
+      "programsList": "Programs List",
+      "scheduledActivitiesList": "Scheduled Activities List"
+    }
+  }
+}
